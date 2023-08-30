@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Details",
+        "handle": "details",
+        "type": "Lunar\\FieldTypes\\ListField",
+        "attribute_type": "Lunar\\FieldTypes\\Product",
+        "configuration": {}
+    },
+    {
+        "attribute_type" : "Lunar\\Models\\Product",
+        "name": "Attachments",
+        "handle": "attachments",
+        "section" : "main",
+        "type": "Lunar\\FieldTypes\\File",
+        "required" : false,
+        "searchable" : false,
+        "default_value": null,
+        "configuration": {
+            "max_files": 5
+        }
+    }
+]

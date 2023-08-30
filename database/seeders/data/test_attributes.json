@@ -1,0 +1,16 @@
+[
+    {
+        "attribute_type" : "Lunar\\Models\\Product",
+        "name": "Test Image",
+        "handle": "test_image",
+        "section" : "main",
+        "type": "Lunar\\FieldTypes\\File",
+        "required" : false,
+        "default_value": null,
+        "configuration": {
+            "max_files": 1
+        },
+        "searchable" : false,
+        "system" : false
+    }
+]
